@@ -1,0 +1,464 @@
+body{
+  background-color: white;
+  margin: 0;
+  font-family: 'Courier New', monospace;
+
+}
+ 
+.container{
+    display: flex; 
+       
+}
+
+ 
+.sideBar{
+     /* border: 1PX solid gray; */
+    width:250px;
+    height: 250vh;
+    overflow-x: hidden;
+    transition:  .5s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.main{
+    width: 100%;
+    
+}
+
+.date-tracker{
+     margin-top: 5%;
+     display: flex;
+     justify-content: space-around;   
+     background-color: white;
+     padding: 25px;
+     border-radius: 20px;
+     margin-right: 10px;   
+}
+
+ .profileUser{
+  display: none;
+ }
+ 
+ .data{
+     margin-top: 5%;
+     text-align: center;
+    font-size: 25px;
+ }
+#cars{
+    border: 0;
+    outline: 0;
+    width: 15%;
+    height: 47px;
+    margin-right: 30px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+ 
+.data input{
+    border: 0;
+    outline: 0;
+    width: 15%;
+    height: 40px;
+    margin-right: 30px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.data button{
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    width: 15%;
+    height: 45px;
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+table{   
+    width: 100%;
+    height: 100%;  
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;    
+    font-family: arial, sans-serif;
+}
+ 
+.table {
+    background-color: #eeede8;  
+    margin-top: 30px;
+    max-height: 100vh;
+    overflow: auto;
+     width: 98%;
+  }
+
+td, th {  
+  width: 100vh;    
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.sideBar h1{
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+}
+
+ 
+  .sideBar li{
+    font-family: Arial, sans-serif;
+   font-weight: 500;
+    display: block;
+    margin: 0px;
+    width: 150px;
+    height:30px;
+    padding: 10px;
+    text-align: center;
+    list-style-type: none;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    /* border: 1px solid #555; */
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  
+  }
+  li:hover  {
+    background-color: #555;
+    color: white;
+  }
+
+  .Expenses {
+    width: 100%;
+    margin-top: 30px;
+    display: none;
+   
+  }
+  .flexs {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #track-expenses{
+    display: block;
+    max-width: 30%;
+   
+  
+   }
+    #tExpenses {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        
+  #track-expenses button{
+    width: 150px;
+  }
+
+  #selected-item{
+    margin-top: 85px;
+    width: 70%;
+    min-height: 70vh;
+    border: solid 1px gray;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  #selected-item table{
+     height: 40px;
+  }
+  
+
+  .date-tracker{
+    background-color: #f9f3f3dc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .date-tracker div{
+     
+    text-align: center;
+    width: 20%;
+    border-radius: 10px;
+    font-size: 25px;
+    color: antiquewhite;
+    font-weight: 900;
+    background: #ffd89b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #19547b, #ffd89b);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menubar  button{
+   width: 50px;
+   height:40px;
+
+  }
+
+ 
+  -item
+  #track-expenses label{
+    font-size: 30px;
+  }
+
+  #date {
+    border: 0;
+    outline: 0;
+    width: 15%;
+    height: 47px;
+    margin-right: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+  }
+
+
+  #getItems{
+    border: 0;
+    outline: 0;
+    width: 10%;
+    height: 47px;
+    
+    font-size: 25px;
+    border-radius: 10px;
+  }
+
+
+  .expenses-dashboard{
+    display: none;
+    width: 100%;
+    
+  }
+
+  
+#getStatsReport{
+  background-color: #4285F4;
+  color: white;
+}
+
+   
+#getStats{
+  margin-top: 3%;
+  background-color: #f9f3f3dc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     padding: 25px;
+     border-radius: 20px;
+     margin-right: 10px;
+}
+
+  #Stats{
+    border: 0;
+    outline: 0;
+    width: 15%;
+    height: 47px;
+    margin-right: 30px;
+    font-size: 25px;
+    border-radius: 10px;
+  }
+
+  #getStats button{
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    width: 15%;
+    height: 45px;
+    margin-right: 30px;
+    font-size: 25px;
+  }
+
+  .statsReport{
+    margin-top: 3%;
+    width: 80%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f7e3e334;
+  }
+
+  .rotate-icon {
+    transform: rotate(45deg);
+  }
+
+
+  #table3, #table4, #table5, #table6{
+    display:none;
+  }
+  
+   
+ .dashSelect table{
+  padding: 10px;
+  max-height: 100vh;
+  overflow: auto;
+ }
+ 
+ #track-expenses {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+   border-radius: 5px;
+  min-width: 25%;
+  
+  margin: 0 auto;
+  max-height: 30%;
+}
+
+/* Style for the headings */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for the labels */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Style for the select elements */
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+#track-expenses {
+  margin-top: 70px;
+}
+/* Style for the button */
+#track-expenses button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#track-expenses button:hover {
+  background-color: #45a049;
+}
+#track-expenses select{
+  padding: 10px;
+  font-size: 20px;
+}
+#track-expenses div{
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 5px;
+}
+  
+.table2 {
+  padding: 20px;
+  border-collapse: collapse;
+  width: 100%;
+  
+  font-family: Arial, sans-serif;
+}
+.selected-item{
+  max-height: 400px;
+  overflow: auto;
+  margin: 50px;
+}
+.selected-item h1{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.table2 th,
+.table2 td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table2 th {
+  background-color: #f2f2f2;
+  color: #555;
+}
+
+.table2 tr:hover {
+  background-color: #f5f5f5;
+}
+
+ 
+
+ .profileUser{
+  width: 100%;
+  height: 100vh;
+ }
+
+.urProfile{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%; 
+  max-width: 90%;
+  height: auto;
+  border: 5px solid gray;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+ }
+ #proId {
+  display: flex; 
+  justify-content: center;
+  background-color:#c1c8c1;
+  width: 190px;
+  height: 180px;
+  border-radius: 50%;
+ }
+ #proId i{
+  margin-top: 35px;
+ 
+ }
+ .fa-user-check {
+
+  font-size: 5rem;
+} 
+
+#b{
+    display: block;
+}
+.profile{
+  display: flex;
+  justify-content: center;
+}
+.userData{
+    display: flex;
+    justify-content: center; 
+}
+.edit{
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;     
+}
+
+.updateForm{
+      display: none;
+    }
+.userStats {
+    display: flex;
+     
+    }
+
+.userStats div{  
+    align-items: center;
+    /* border: 1px solid gray;
+    border-radius: 10px; */
+    margin: 30px;
+    padding: 10px;
+  } 
+ .userStats div h2{
+  background-color: #dae4da50;
+  padding: 5px;
+  border-radius: 4px; 
+ } 
+.userStats div h4{
+   display: flex;
+   justify-content: center;
+   font-size: larger;
+} 
+ 

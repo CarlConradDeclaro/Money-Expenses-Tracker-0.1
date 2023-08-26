@@ -1,0 +1,60 @@
+ 
+
+.updateFormContainer  h2{
+    text-align: center;
+    color: rgb(180, 14, 14);
+}
+
+.updateFormContainer form {
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #dad7d77a;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+.updateFormContainer form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 1px;
+}
+.updateFormContainer form input {
+   display: flex;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  .updateFormContainer #id{
+    width: 100px;
+  }
+  .updateFormContainer form select {
+    width: 250px;
+   }
+
+ .updateFormContainer form button {
+
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 10px;
+}
+#submit {
+    background-color: #4285F4;
+}
+
+
+
+
+
+
+        

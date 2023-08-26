@@ -1,0 +1,63 @@
+ .insert   body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.insert h2{
+    text-align: center;
+}
+.insert form {
+  
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #dad7d77a;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.insert form label {
+    flex: 0 0 120px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.insert form input[type="text"],
+.insert form input[type="number"],
+.insert form select {
+    flex: 1 0 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+ 
+
+.insert_btn {
+    flex: 1 0 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.insert_btn button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 10px;
+}
+
+#submit {
+    background-color: #4285F4;
+}
+ 
