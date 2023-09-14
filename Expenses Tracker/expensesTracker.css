@@ -4,12 +4,9 @@ body{
   font-family: 'Courier New', monospace;
 
 }
- 
 .container{
-    display: flex; 
-       
+    display: flex;       
 }
-
  
 .sideBar{
      /* border: 1PX solid gray; */
