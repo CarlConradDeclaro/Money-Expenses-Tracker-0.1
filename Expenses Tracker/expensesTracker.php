@@ -11,7 +11,7 @@ include 'connect.php';
 
     // Prepare the INSERT query   Category, ProductName , Price
     if ($Category != "" && $ProductName != "" && $Price != "") {
-        $sql = "INSERT INTO data (category, productName, price) VALUES ('$Category', '$ProductName', '$Price')";
+        $sql = "INSERT INTO user (category, productName, price) VALUES ('$Category', '$ProductName', '$Price')";
 
     }else{
         header("Location: expensesTracker.php");
@@ -33,7 +33,7 @@ include 'connect.php';
 
 
 
-$sql = 'SELECT * FROM data' ;
+$sql = 'SELECT * FROM user' ;// need to edit this
 $result = mysqli_query($conn, $sql);
 $feedback = mysqli_fetch_all($result,MYSQLI_ASSOC);
 $feedback = array_reverse($feedback);
@@ -72,7 +72,8 @@ if (isset($_GET['delete_id'])) {
     $dateToDelete = $_GET['delete_id'];
 
     // Prepare the DELETE query
-    $sql = "DELETE FROM data WHERE id = '$dateToDelete'";
+                     //need to edit this
+    $sql = "DELETE FROM user WHERE id = '$dateToDelete'";
 
     // Execute the query
     if ($conn->query($sql) === TRUE) {
@@ -97,7 +98,8 @@ if (isset($_POST['submitt'])) {
     // Prepare the UPDATE query
     
     if ($Cat != "" && $prodName != "" && $prodPrice != "") {
-        $sql = "UPDATE data SET category='$Cat', productName='$prodName', price='$prodPrice' WHERE id='$Id'";
+             //  need to edit this
+        $sql = "UPDATE user SET category='$Cat', productName='$prodName', price='$prodPrice' WHERE id='$Id'";
     }else{
         header("Location: expensesTracker.php");
         exit();
@@ -117,6 +119,7 @@ if (isset($_POST['submitt'])) {
 
 
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
