@@ -173,6 +173,7 @@ td, th {
     background-color: #f9f3f3dc;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /*box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;*/
   }
   .date-tracker div{
      
@@ -180,12 +181,9 @@ td, th {
     width: 20%;
     border-radius: 10px;
     font-size: 25px;
-    color: antiquewhite;
+    color: black;
     font-weight: 900;
-    background: #ffd89b;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #19547b, #ffd89b);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
   }
   
   .menubar  button{
