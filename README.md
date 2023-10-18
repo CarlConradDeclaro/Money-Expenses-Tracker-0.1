@@ -8,5 +8,12 @@ You can see a live demo of this application <a href="https://money-expenses-trac
 
 # Preview 
 
-# Dashboard
 ![Dashboard](https://github.com/CarlConradDeclaro/Money-Expenses-Tracker-0.1/assets/110441309/0780b715-4570-4ece-81c1-5908dd0f1c32)
+
+
+![Expenses](https://github.com/CarlConradDeclaro/Money-Expenses-Tracker-0.1/assets/110441309/86caa1e6-d0ed-4929-8974-28924928bc4c)
+
+![ExReport](https://github.com/CarlConradDeclaro/Money-Expenses-Tracker-0.1/assets/110441309/75469c25-9ddd-4f73-9255-85d70db636ae)
+
+
+![profile](https://github.com/CarlConradDeclaro/Money-Expenses-Tracker-0.1/assets/110441309/6b222406-5780-4d13-bbd4-a7a7ae6fd0d6)
