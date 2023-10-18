@@ -5,3 +5,8 @@ You can see a live demo of this application <a href="https://money-expenses-trac
 
 <h4 align="center">Visitor's count 👀</h4>
 <p align="center"><img src="https://profile-counter.glitch.me/Money-Expenses-Tracker/count.svg" alt="CarlConradDeclaro :: Visitor's Count" /></p>
+
+# Preview 
+
+# Dashboard
+![Dashboard](https://github.com/CarlConradDeclaro/Money-Expenses-Tracker-0.1/assets/110441309/0780b715-4570-4ece-81c1-5908dd0f1c32)
